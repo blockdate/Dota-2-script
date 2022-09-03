@@ -38,6 +38,7 @@ return
 LAlt & d::
   direct()
   item(2)    			; change to YOUR EUL HOTKEY
+  direct()
   Sleep, 830 			
   Send, {%stop%}    	
   item(3)				; change to YOUR BLINK HOTKEY

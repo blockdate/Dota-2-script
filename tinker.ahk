@@ -55,7 +55,7 @@ Set1600x900(void)
 
 ; Blink spammer, replace t with your blink hotkey
 LAlt & t::
-	repeater("t","t") 
+	repeater("c","c") 
 return
 
 
@@ -72,7 +72,7 @@ return
 ; Drop items during rearm
 LAlt & d::
 {
-	Set1600x900(void)
+	Set1920x1080(void)
 	
 	Send {Shift Down}
 	delay() 

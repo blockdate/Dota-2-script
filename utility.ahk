@@ -143,6 +143,34 @@ directedItem(i)
   item(i)    
 }
 
+switchHeroAbility(i)  
+{  
+  Send, {Tab}
+  ability(i) 
+  Send, {%select_self%}   
+}
+
+switchHeroItem(i)  
+{  
+  Send, {Tab}
+  item(i)    
+  Send, {%select_self%}   
+}
+
+switchHeroAttact()  
+{  
+  Send, {Tab}
+  Send, {%attack%}   
+  Send, {%select_self%}   
+}
+switchHeroMove()  
+{  
+  Send, {Tab}
+  Send, {Click, R}
+  Send, {%select_self%}   
+}
+
+
 
 ; Drag item
 ; --------------------------------------------

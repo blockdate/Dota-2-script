@@ -4,9 +4,14 @@
 #SingleInstance force
 
 ; Turn during RP animation
-LAlt & w::  
-	ability(2)
-	sleep, 1300
-	send {%stop%}
+d::  
+  	direct()
+	ability(3)
+	sleep, 250
+	item(6)
+	item(1)
 	item(2)
+	item(3)
+	sleep, 30
+	ability(6)
 return
